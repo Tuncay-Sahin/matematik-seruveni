@@ -1,0 +1,6 @@
+{
+  "name": "Çarpmaktan korkma!",
+  "description": "Çarpım tablosu, kesirler ve yüzdeleri eğlenceli ve görsel örneklerle öğreten interaktif matematik uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --animate-float: float 3s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-yellow-400 text-slate-900 font-sans;
+  }
+}
+
+@layer components {
+  .neo-brutal {
+    @apply border-4 border-slate-900 shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all bg-white;
+  }
+  
+  .neo-brutal-static {
+    @apply border-4 border-slate-900 shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] bg-white;
+  }
+
+  .neo-heading {
+    @apply font-black uppercase tracking-tighter leading-none;
+  }
+}
