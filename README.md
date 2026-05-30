@@ -28,7 +28,7 @@ An interactive, responsive, and prompt-driven web application designed to accele
 
 **Matematik Serüveni**, geleneksel ezberci eğitim modellerini kırarak, öğrencilerin matematiksel işlem kabiliyetlerini artırmayı hedefleyen modern bir web uygulamasıdır. Bu projenin en kritik özelliği, mimarisinin uçtan uca **AI Studio (Prompt-Driven Development)** ve **No-Code Engineering** prensipleriyle koordine edilmiş olmasıdır. 
 
-Proje; gereksinim analizinden (Requirements Engineering), CI/CD dağıtım süreçlerine (Deployment Lifecycle) kadar tam bir **Business Analyst (İş Analisti)** ve **Product Owner (Ürün Sahibi)** vizyonuyla yönetilmiştir.
+Proje; gereksinim analizinden (Requirements Engineering), CI/CD dağıtım süreçlerine (Deployment Lifecycle) kadar tam bir **Product Owner (Ürün Sahibi)** vizyonuyla yönetilmiştir.
 
 ---
 
@@ -37,7 +37,7 @@ Proje; gereksinim analizinden (Requirements Engineering), CI/CD dağıtım süre
 Application, kullanıcı deneyimini (UX) en üst düzeyde tutmak için modüler bir yapıda kurgulanmıştır:
 
 * **Interactive Arena (Çarpım Arenası):** Dinamik soru üretme algoritmaları ile kullanıcıyı sürekli aktif tutan canlı oyun motoru.
-* **Visual Block Modeling (Görsel Blok Modellemesi):** Soyut matematiksel kavramları somutlaştırarak pedagojik öğrenimi destekleyen görsel matris yapıları.
+* **Visual Block Modeling (Görsel Blok Modellemesi):** Soyut matematiksel Çarpım Tablosu kavramları somutlaştırarak pedagojik öğrenimi destekleyen görsel matris yapıları.
 * **Gamified Progression (Kamp Mücadelesi):** Kullanıcı motivasyonunu artırmak amacıyla kurgulanmış aşamalı zorluk seviyeleri ve skor takibi (Scoreboard).
 * **Responsive Layout:** Hem masaüstü hem de mobil cihazlarda (Mobile-first responsive design) kusursuz çalışan esnek arayüz.
 
